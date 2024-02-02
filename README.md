@@ -1,6 +1,24 @@
 # SOLL
 
 This repository contains the source code and utilities for a self-organising linked list ADT.
+
+- [Directory Structure](#directory-structure)
+- [Building and Testing](#building-and-testing)
+  - [Clone the Repository](#clone-the-repository)
+  - [Navigate to the Project Directory](#navigate-to-the-project-directory)
+  - [Build the Test Executable](#build-the-test-executable)
+  - [Run the Tests](#run-the-tests)
+  - [Run Sanitized Tests](#run-sanitized-tests)
+  - [Run Sanitized Tests w/ Valgrind](#run-sanitized-tests-w-valgrind)
+- [Using the ADT](#using-the-adt)
+  - [Initialisation](#initialisation)
+  - [Add](#add)
+  - [Remove](#remove)
+  - [Find Element](#find-element)
+  - [Frequency](#frequency)
+  - [Size](#size)
+  - [Retrieve String Representation](#retrieve-string-representation)
+  - [Free Memory](#free-memory)
                                            
 ## Directory Structure
 
