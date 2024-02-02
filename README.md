@@ -29,3 +29,9 @@ make
 
 # Run the tests
 ./test_soll
+
+# Run sanitized tests
+./test_soll_s
+
+# Run sanitized tests w/ Valgrind
+valgrind ./test_soll_v
