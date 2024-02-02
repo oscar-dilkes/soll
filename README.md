@@ -84,6 +84,7 @@ bool soll_remove(soll* s, char* str);
 Parameters:
 - s: Pointer to the linked list.
 - str: The string to be removed from the list.
+  
 Returns:
 - True if the element is successfully removed, false otherwise.
 
@@ -96,6 +97,7 @@ Parameters:
 - s: Pointer to the linked list.
 - str: The string to be searched for.
 - cnt: Pointer to a variable that stores the pointer chase count.
+  
 Returns:
 - True if the element is found and updated, false otherwise.
 
@@ -107,6 +109,7 @@ int soll_freq(soll* s, char* str);
 Parameters:
 - s: Pointer to the linked list.
 - str: The string to get the frequency for.
+  
 Returns:
 - The frequency of the specified element in the list.
 
@@ -116,6 +119,7 @@ int soll_size(soll* s);
 ```
 Parameters:
 - s: Pointer to the linked list.
+  
 Returns:
 - The size of the linked list.
 
@@ -135,6 +139,7 @@ bool soll_free(soll* s);
 ```
 Parameters:
 - s: Pointer to the linked list.
+  
 Returns:
 - True if memory is successfully freed, false otherwise.
   
