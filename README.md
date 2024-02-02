@@ -2,14 +2,6 @@
 
 This repository contains the source code and utilities for a self-organising linked list ADT.
                                            
-## Table of Contents
-
-- [Directory Structure](#directory-structure)
-- [Building and Testing](#building-and-testing)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## Directory Structure
 
 The project directory is organized as follows:
