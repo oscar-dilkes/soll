@@ -87,7 +87,7 @@ Parameters:
 Returns:
 - True if the element is successfully removed, false otherwise.
 
-### Find element
+### Find Element
 Searches for an element in the linked list and updates its frequency and position.
 ```c
 bool soll_isin(soll* s, char* str, long* cnt);
@@ -119,7 +119,7 @@ Parameters:
 Returns:
 - The size of the linked list.
 
-### Retrieve string representation
+### Retrieve String Representation
 Converts the linked list to a string representation.
 ```c
 void soll_tostring(soll* s, char* str);
@@ -128,7 +128,7 @@ Parameters:
 - s: Pointer to the linked list.
 - str: Buffer to store the resulting string.
 
-### Free memory
+### Free Memory
 Frees the memory used by the linked list.
 ```c
 bool soll_free(soll* s);
