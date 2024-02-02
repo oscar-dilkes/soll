@@ -30,7 +30,7 @@ The project directory is organized as follows:
 To build the project and run tests, follow these steps:
 
 - Clone the repository
-```bash
+  - ```bash
 git clone https://github.com/oscardilkes/soll.git
 ```
 - Navigate to the project directory
