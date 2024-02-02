@@ -40,10 +40,10 @@ valgrind ./test_soll_v
 ## Using the ADT
 Below are instructions for using the SOLL.
 ### Initialisation
+Initialise the linked list with the chosen organisation type.  
 ```c
 soll* soll_init(orgtype type);
 ```
-Initialise the linked list with the chosen organisation type.  
 Can be of type:  
 - 'none'      : Unsorted linked list.  
 - 'mtf'       : When element is accessed it is moved to the front.  
@@ -53,32 +53,76 @@ Parameters:
 - type: The organisation type of the list.
   
 Returns:  
-- A pointer to the newly initialised linked list or NULL if memory allocation fails.  #
-  
+- A pointer to the newly initialised linked list or NULL if memory allocation fails.
+
+### Add
+Adds a new element to the linked list through deep copy.
 ```c
 void soll_add(soll* s, char* str);
 ```
-
+Parameters:
+- s: Pointer to the linked list.
+- str: The string to be added to the list.
+  
+### Remove
+Removes an element from the linked list based on the provided string.
 ```c
 bool soll_remove(soll* s, char* str);
 ```
+Parameters:
+- s: Pointer to the linked list.
+- str: The string to be removed from the list.
+Returns:
+- True if the element is successfully removed, false otherwise.
 
+### Find element
+Searches for an element in the linked list and updates its frequency and position.
 ```c
 bool soll_isin(soll* s, char* str, long* cnt);
 ```
+Parameters:
+- s: Pointer to the linked list.
+- str: The string to be searched for.
+- cnt: Pointer to a variable that stores the pointer chase count.
+Returns:
+- True if the element is found and updated, false otherwise.
 
+### Frequency
+Gets the frequency of a particular element in the linked list.
 ```c
 int soll_freq(soll* s, char* str);
 ```
+Parameters:
+- s: Pointer to the linked list.
+- str: The string to get the frequency for.
+Returns:
+- The frequency of the specified element in the list.
 
+### Size
 ```c
 int soll_size(soll* s);
 ```
+Parameters:
+- s: Pointer to the linked list.
+Returns:
+- The size of the linked list.
 
+### Retrieve string representation
+Converts the linked list to a string representation.
 ```c
 void soll_tostring(soll* s, char* str);
 ```
+Parameters:
+- s: Pointer to the linked list.
+- str: Buffer to store the resulting string.
 
+### Free memory
+Frees the memory used by the linked list.
 ```c
 bool soll_free(soll* s);
 ```
+Parameters:
+- s: Pointer to the linked list.
+Returns:
+- True if memory is successfully freed, false otherwise.
+  
