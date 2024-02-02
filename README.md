@@ -35,3 +35,7 @@ make
 
 # Run sanitized tests w/ Valgrind
 valgrind ./test_soll_v
+
+## Using the ADT
+Below are insturctions for using the SOLL.
+### Initialisation
