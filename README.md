@@ -43,15 +43,18 @@ Below are instructions for using the SOLL.
 ```c
 soll* soll_init(orgtype type);
 ```
-Initialise the linked list with the chosen organisation type.
+Initialise the linked list with the chosen organisation type.  
 Can be of type:  
-  'none'      : Unsorted linked list.  
-  'mtf'       : When element is accessed it is moved to the front.  
-  'transpose' : When element is accessed it is moved one place closer to the front.  
+- 'none'      : Unsorted linked list.  
+- 'mtf'       : When element is accessed it is moved to the front.  
+- 'transpose' : When element is accessed it is moved one place closer to the front.
+
 Parameters:  
-  type: The organisation type of the list.  
+- type: The organisation type of the list.
+  
 Returns:  
-  A pointer to the newly initialised linked list or NULL if memory allocation fails.  
+- A pointer to the newly initialised linked list or NULL if memory allocation fails.  #
+  
 ```c
 void soll_add(soll* s, char* str);
 ```
