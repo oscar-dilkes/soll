@@ -29,27 +29,27 @@ The project directory is organized as follows:
 
 To build the project and run tests, follow these steps:
 
-Clone the repository
+- Clone the repository
 ```bash
 git clone https://github.com/oscardilkes/soll.git
 ```
-Navigate to the project directory
+- Navigate to the project directory
 ```bash
 cd soll/src
 ```
-Build the test executable
+- Build the test executable
 ```bash
 make
 ```
-Run the tests
+- Run the tests
 ```bash
 ./test_soll
 ```
-Run sanitized tests
+- Run sanitized tests
 ```bash
 ./test_soll_s
 ```
-Run sanitized tests w/ Valgrind
+- Run sanitized tests w/ Valgrind
 ```bash
 valgrind ./test_soll_v
 ```
