@@ -18,7 +18,8 @@ The project directory is organized as follows:
   - `soll_util.h`: Header file with utility functions and testing.
   - `soll.c`: Implementation of the linked list functions.
   - `test_soll.c`: Test file for the linked list functions.
-- `soll.h`: Header file defining the linked list data structure.
+- `soll.h`: Header file for ADT exposing available functions.
+- Makefile
 
 ## Building and Testing
 
